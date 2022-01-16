@@ -10,5 +10,5 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 sudo mkdir -p /home/ec2-user/bookstore
 cd /home/ec2-user/bookstore
-sudo git clone 
-docker-compose up -d
+sudo git clone https://github.com/gaskin23/docker-bookstore-project.git
+sudo docker-compose up -d
